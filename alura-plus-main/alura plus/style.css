@@ -18,8 +18,10 @@ body{
 }
 .principal{
     background-image: url("img/Background.png");
-    background-repeat:no-repeat ;
+    background-repeat:no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -32,8 +34,39 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 .botão__secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+.container_imagem{
+  margin: 1em 0 2em 0;
+}
+.container_caixa{
+    margin: 0 6em;
+}
+.secundario_imagem {
+    width: 80;
+}
+.secundario {
+    align-items: center;
+    margin:0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao_texto{
+    color: var(--cinza-secundário);
+}
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao {
+    padding: 2em;
 }
